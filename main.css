@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(img/Background.jpg) center bottom;
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+
+.key {
+  border: .2rem solid rgba(255, 255, 255, 0.698);
+  border-radius: .4rem;
+  margin: 1rem 1rem 4rem 1rem;
+  font-size: 1.2rem;
+  padding: .7rem .4rem;
+  transition: all .07s ease;
+  width: 8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  margin-bottom: 4.5rem;
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.key span {
+  font-size: 1.2rem;
+  font-family: 'Acme', cursive;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.key h3 {
+  font-family: 'Karla', cursive;
+}
