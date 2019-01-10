@@ -17,6 +17,17 @@ body {
   font-size: 50px;
   letter-spacing: 10px;
 }
+
+.hint {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Karla';
+  color: #ffc800ab;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
 .keys {
   display: flex;
   flex: 1;
@@ -57,3 +68,4 @@ body {
 .key h3 {
   font-family: 'Karla', cursive;
 }
+
