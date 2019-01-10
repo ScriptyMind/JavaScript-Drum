@@ -8,6 +8,15 @@ body {
   background-size: cover;
 }
 
+.logo {
+  position: absolute;
+  top: 0;
+  font-family: 'Acme';
+  margin: 50px auto;
+  color: rgba(0, 0, 0, 0.808);
+  font-size: 50px;
+  letter-spacing: 10px;
+}
 .keys {
   display: flex;
   flex: 1;
